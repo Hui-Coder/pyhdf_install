@@ -7,7 +7,7 @@ ubuntu下安装python库 pyhdf.
 
 如果执行还无法成功import pyhdf
 
-修改setup.py脚本第29行：
+修改pyhdf-0.8.3/setup.py脚本第29行（pyhdf-0.8.3为pyhdf安装包目录，执行pyhdf_install.sh后自动生成）：
 
 szip_installed=False
 
